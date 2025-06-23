@@ -1,0 +1,13 @@
+prefix=C:/Coding/DataScience/Projects/End_To_End_Agentic_AI_Demo/venv/Library
+exec_prefix=C:/Coding/DataScience/Projects/End_To_End_Agentic_AI_Demo/venv/Library
+libdir=C:/Coding/DataScience/Projects/End_To_End_Agentic_AI_Demo/venv/Library/lib
+sharedlibdir=C:/Coding/DataScience/Projects/End_To_End_Agentic_AI_Demo/venv/Library/lib
+includedir=C:/Coding/DataScience/Projects/End_To_End_Agentic_AI_Demo/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
